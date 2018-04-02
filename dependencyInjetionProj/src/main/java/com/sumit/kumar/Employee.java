@@ -1,5 +1,8 @@
 package com.sumit.kumar;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Employee {
 	int Id;
 	String Name;

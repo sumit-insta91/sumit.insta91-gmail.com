@@ -8,7 +8,7 @@
 	http://www.springframework.org/schema/context 
 	http://www.springframework.org/schema/context/spring-context.xsd">
     
-	<bean id="Employee" class="com.sumit.kumar.Employee"></bean>
+	<!-- <bean id="Employee" class="com.sumit.kumar.Employee"></bean>
 	
 	<bean id="Person" class="com.sumit.kumar.Person">
 		<property name="employee">
@@ -22,6 +22,7 @@
 		</constructor-arg>
 	</bean>
 	
-	<bean id="specialization" class="com.sumit.kumar.Specialization" />
+	<bean id="specialization" class="com.sumit.kumar.Specialization" /> -->
 		
+	<context:annotation-config/>	
 </beans>
